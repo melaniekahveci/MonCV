@@ -7,6 +7,9 @@ body
 h1
 {
 color:#000066;
+@font-face
+font-family: "reckless";
+src: url("reckless_sample.ttf")  
 }
 h2
 {

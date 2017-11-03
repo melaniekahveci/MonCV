@@ -12,6 +12,9 @@ font-family: "reckless";
 src: url("reckless_sample.ttf")  
 }
 h2
+@font-face
+font-family: "orange";
+src: url("orange.ttf")
 {
 color:#808080;
 }

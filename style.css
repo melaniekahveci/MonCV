@@ -5,7 +5,7 @@ body
 background-color:#ffe6e6;
 }
 h1
-{
+{ 
 color:#000066;
 }
 h2
@@ -16,3 +16,8 @@ h1, h2, p
 {
 text-align:center;
 }
+h1, h2
+{
+text-decoration: underline;
+}  
+

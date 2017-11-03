@@ -8,17 +8,11 @@ h1
 {
 color:#000066;
 }
-@font-face {
-font-family: "reckless";
-src: url("reckless_sample.ttf")  
-}
 h2
-@font-face {
-font-family: "orange";
-src: url("orange.ttf")
 {
 color:#808080;
 }
+
 h1, h2, p
 {
 text-align:center;

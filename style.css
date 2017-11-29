@@ -25,3 +25,7 @@ text-decoration: underline;
 {list-style-image:url("ok_html.png");}
 #centresinterets
 {list-style-image:url("coeur_html.png");}
+h1
+{
+  border:medium purple dashed;
+}

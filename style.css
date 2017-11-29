@@ -8,6 +8,7 @@ text-align:center;
 h1
 { 
 color:#8b00ab;
+border:medium purple dashed;
 }
 h2
 {
@@ -25,7 +26,4 @@ text-decoration: underline;
 {list-style-image:url("ok_html.png");}
 #centresinterets
 {list-style-image:url("coeur_html.png");}
-h1
-{
-  border:medium purple dashed;
-}
+

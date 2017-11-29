@@ -21,4 +21,5 @@ h2
 {
 text-decoration: underline;
 }  
-
+#competences
+{list-style-image:url("ok_html.png");}

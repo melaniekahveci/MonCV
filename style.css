@@ -24,5 +24,16 @@ h2
 {
 text-decoration: underline;
 }  
-
+aside
+{
+  width:50%;
+  display:block;
+}
+main
+{
+  display: flex;
+  flex-wrap:wrap;
+  width:50%;
+  justify-content:space-around;
+}
 

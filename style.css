@@ -7,12 +7,7 @@ text-align:center;
 font-family:"TheHills_PERSONAL_USE_ONLY";
 src:url("TheHills_PERSONAL_USE_ONLY.ttf") format(".ttf");
 }
-h1
-{ 
-color:#8b00ab;
-border:medium #8b00ab groove;
-}
-h2
+h1, h2
 {
 color:#8b00ab;
 }
@@ -24,16 +19,41 @@ h2
 {
 text-decoration: underline;
 }  
-aside
-{
-  width:50%;
-  display:block;
-}
 main
 {
   display: flex;
   flex-wrap:wrap;
-  width:50%;
+  width:100%;
   justify-content:space-around;
 }
 
+section {
+	width : 20% }
+
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.swing {
+  transform-origin: top center;
+  animation-name: swing;
+  animation-duration: 4s;
+}

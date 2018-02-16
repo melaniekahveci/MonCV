@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+background-color:#ffe6e6;
+text-align:center;
+font-family:"TheHills_PERSONAL_USE_ONLY";
+src:url("TheHills_PERSONAL_USE_ONLY.ttf") format(".ttf");
+}
+h1, h2
+{
+color:#8b00ab;
+}
+h1, h2, p
+{
+text-align:center;
+}
+h2
+{
+text-decoration: underline;
+}  
+main
+{
+  display: flex;
+  flex-wrap:wrap;
+  width:100%;
+  justify-content:space-around;
+}
+
+section {
+	width : 20% }
+
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.swing {
+  transform-origin: top center;
+  animation-name: swing;
+  animation-duration: 5s;
+}
+#competences {
+    list-style-type: square;
+	text-align: left;  
+}
+#centresinterets {    
+	list-style-type: square;
+	text-align:left;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border:2px solid #555555;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+
